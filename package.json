@@ -1,0 +1,42 @@
+{
+  "name": "fitness-tracker-web-app-mvp",
+  "version": "1.0.0",
+  "description": "A web application designed to empower individuals to reach their fitness goals",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<github account username>/fitness-tracker-web-app-mvp.git"
+  },
+  "author": "Author Name",
+  "license": "GNU AGPLv3",
+  "bugs": {
+    "url": "https://github.com/<github account username>/fitness-tracker-web-app-mvp/issues"
+  },
+  "homepage": "https://github.com/<github account username>/fitness-tracker-web-app-mvp#readme",
+  "dependencies": {
+    "@types/next": "^14.0.1",
+    "@types/react": "^18.0.28",
+    "@types/tailwindcss": "^3.2.8",
+    "autoprefixer": "^10.4.14",
+    "mongodb": "^5.1.0",
+    "next": "^14.1.1",
+    "next-auth": "^4.22.1",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "tailwindcss": "^3.3.2",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^14.1.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.6"
+  }
+}
